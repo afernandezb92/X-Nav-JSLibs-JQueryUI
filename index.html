@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Juega con JQueryUI</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="script.js"></script>
+	
+</head>
+<body>
+	<audio src="sample.mp3" autoplay></audio>
+	<div id="tabs">
+	  <ul>
+	    <li><a href="#tabs-1">Inicio</a></li>
+	    <li><a href="#tabs-2">Escritorio</a></li>
+	    <li><a href="#tabs-3">Microsoft Word</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		  <div id="datepicker"></div>
+	    <div id="dialog" title="Bienvenido">
+		  <p>En esta pagina vamos ha realizar una simulación de un escritorio de un Sistema Operativo</p>
+		</div>
+		<ul id="menu">
+	  <li>Apagar</li>
+	  <li>Panel de control</li>
+	  <li>Equipo</li>
+	  <li>Todos los programas
+	    <ul>
+			  <li>Accesorios
+				<ul>
+					<li>Bloc de Notas</li>
+					<li>Calculadora</li>
+				</ul>	
+		      <li>Adobe Reader</li>
+		      <li>Google Chrome</li>
+		      <li>Mozilla Firefox</li>
+		</ul>
+	  </li>
+	  </div>
+	  <div id="tabs-2">
+		<div id="datepicker2"></div>
+		<div id="draggable" class="column">
+			<p>Nueva Carpeta</p>
+		</div> 
+		<div id="droppable" class="column" >
+			<p>Papelera de reciclaje</p>
+		</div>
+	  </div>
+	  <div id="tabs-3">
+	</div>
+	</div>
+</body>
+</html>
